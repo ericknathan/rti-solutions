@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHL</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <form method="POST" action="./calculateShipping.php">
+      <h1>Calculadora de frete</h1>
+      <div>
+        <label for="origin">Cidade de origem</label>
+        <input type="text" name="origin" required />
+      </div>
+      <div>
+        <label for="destination">Cidade de destino</label>
+        <input type="text" name="destination" required />
+      </div>
+      <div>
+        <label for="range">Distância em Km</label>
+        <input type="number" name="range" required min="0" />
+      </div>
+      <div>
+        <label for="tolls">Quantidade de pedágios</label>
+        <input type="number" name="tolls" required min="0" />
+      </div>
+      <button>Calcular</button>
+    </form>
+  </body>
+</html>

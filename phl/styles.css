@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #faa300;
+}
+
+form,
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f3fd;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  width: 380px;
+  gap: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 32px;
+  color: #121317;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+form > div label {
+  font-size: 16px;
+  color: #6b6b6b;
+}
+
+form > div input {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #bcbcbc;
+  height: 40px;
+  padding: 0 10px;
+}
+
+form > div input:focus {
+  background-color: #f7e8cd;
+  outline: none;
+  border: 1px solid #faa300;
+}
+
+form > button {
+  background-color: #faa80f;
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+  color: #121317;
+  font-weight: 600;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+form > button:hover {
+  background-color: #f7af2b;
+}
+
+.red {
+  background-color: #ff3562;
+}
+
+p {
+  text-align: center;
+  color: #6b6b6b;
+  font-size: 16px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 24px;
+}
