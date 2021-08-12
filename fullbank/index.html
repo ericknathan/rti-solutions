@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="calculateWage.php" method="POST">
+      <h1>Fullbank</h1>
+      <div>
+        <p>Nome do funcionário:</p>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <p>Salário atual:</p>
+        <input type="number" name="currentWage" id="currentWage" min="0" />
+      </div>
+      <div>
+        <p>Gênero:</p>
+        <div class="radio__buttons">
+          <input type="radio" name="gender" id="male" value="O" />
+          <label for="male">Masculino</label>
+          <input type="radio" name="gender" id="female" value="A" />
+          <label for="female">Feminino</label>
+          <input type="radio" name="gender" id="other" value="X" />
+          <label for="other">Outro</label>
+        </div>
+      </div>
+      <div>
+        <p>Cargo:</p>
+        <input list="occupation" name="occupation" type="li"/>
+        <datalist id="occupation">
+          <option value="Desenvolvedor de Sistemas"></option>
+          <option value="Técnico em redes"></option>
+          <option value="Gerente de investimentos"></option>
+          <option value="DBA"></option>
+          <option value="DevOps"></option>
+        </datalist>
+      </div>
+      <button>Calcular</button>
+    </form>
+  </body>
+</html>

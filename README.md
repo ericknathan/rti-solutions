@@ -19,3 +19,12 @@ Conta de luz de {FULANO SANTOS}.
 ```
 
 Lembrando que caso o consumo for acima de 120 kWh, o valor de cada kWh deverá ser 0,42 e consumo deve aparecer em vermelho. Caso contrário, o valor de cada kWh deverá ser 0,32 e consumo deve aparecer em azul, mostrando uma mensagem: “Obrigado por economizar!”. 
+
+### Desafio III
+Um dos clientes, a fintech Fulbank, irá dar aumento para seus funcionários proporcionais ao salário atual. Portanto é preciso de uma aplicação web onde o usuário informa o nome do funcionário, o salário atual, seleciona o gênero (feminino, masculino ou outros) e selecione o cargo (inventar uma lista de cargos). A saída deve ser representada como o exemplo a seguir:
+```
+O {Fulano} passará a receber R$ {4500,00}, no cargo de {cargo}.
+```
+
+Lembrando que se o salário for superior a 5.000, realizar acréscimo de 10%, caso contrário realizar acréscimo de 20%.
+
