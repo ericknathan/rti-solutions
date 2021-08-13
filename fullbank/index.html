@@ -12,11 +12,11 @@
       <h1>Fullbank</h1>
       <div>
         <p>Nome do funcionário:</p>
-        <input type="text" name="name" id="name" autocomplete="off" />
+        <input type="text" name="name" id="name" autocomplete="off" required />
       </div>
       <div>
         <p>Salário atual:</p>
-        <input type="number" name="currentWage" id="currentWage" min="0" />
+        <input type="number" name="currentWage" id="currentWage" min="0" required />
       </div>
       <div>
         <p>Gênero:</p>
@@ -37,7 +37,7 @@
       </div>
       <div>
         <p>Cargo:</p>
-        <input list="occupation" name="occupation" type="li" />
+        <input list="occupation" name="occupation" type="li" required />
         <datalist id="occupation">
           <option value="Desenvolvedor de Sistemas"></option>
           <option value="Técnico em redes"></option>
