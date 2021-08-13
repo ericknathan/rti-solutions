@@ -21,17 +21,23 @@
       <div>
         <p>Gênero:</p>
         <div class="radio__buttons">
-          <input type="radio" name="gender" id="male" value="O" />
-          <label for="male">Masculino</label>
-          <input type="radio" name="gender" id="female" value="A" />
-          <label for="female">Feminino</label>
-          <input type="radio" name="gender" id="other" value="X" />
-          <label for="other">Outro</label>
+          <div>
+            <input type="radio" name="gender" id="male" value="O" />
+            <label for="male">Masculino</label>
+          </div>
+          <div>
+            <input type="radio" name="gender" id="female" value="A" />
+            <label for="female">Feminino</label>
+          </div>
+          <div>
+            <input type="radio" name="gender" id="other" value="X" />
+            <label for="other">Outro</label>
+          </div>
         </div>
       </div>
       <div>
         <p>Cargo:</p>
-        <input list="occupation" name="occupation" type="li"/>
+        <input list="occupation" name="occupation" type="li" />
         <datalist id="occupation">
           <option value="Desenvolvedor de Sistemas"></option>
           <option value="Técnico em redes"></option>

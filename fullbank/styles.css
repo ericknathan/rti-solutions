@@ -54,15 +54,21 @@ input:focus {
 
 .radio__buttons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 8px;
+}
+
+.radio__buttons > div {
+  display: flex;
+  flex: auto;
   align-items: center;
-  width: 100%;
 }
 
 .radio__buttons input {
   width: 18px;
   height: 18px;
-  margin-right: -36px;
+  margin-right: 6px;
 }
 
 input[type='radio']:checked {
